@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&family=Cormorant+Garamond&family=EB+Garamond:wght@700&family=Eczar&family=Fjalla+One&family=Gentium+Plus&family=Libre+Baskerville&family=Libre+Franklin&family=Proza+Libre&family=Roboto:wght@400;700&family=Rubik&family=Stylish&family=Taviraj&family=Trirong&family=Ubuntu:wght@500&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 130vh;
+  background: linear-gradient(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+      rgba(48, 42, 42, 0.7),
+      rgba(49, 43, 43, 0.7)
+    ),
+    url(rest-sunshine-atoll-bungalow-holiday.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.det ul li {
+  display: flex;
+  text-decoration: none;
+
+  display: inline-block;
+  margin: 1vh 3vw;
+  font-weight: 200;
+  font-family: "Eczar", serif;
+}
+
+.det li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  color: rgb(16, 15, 15);
+  font-size: x-large;
+  border: 2px solid whitesmoke;
+  padding: 0.5vw 2vw;
+  border-radius: 2vw;
+  background-color: greenyellow;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 17px;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  font-size: 19px;
+  width: 100vw;
+  z-index: 5;
+}
+
+.det {
+  /* background : linear-gradient(135deg, rgba(217, 206, 206, 0.6) ,rgba(217, 202, 202, 0.6)); */
+  border: 2px solid transparent;
+
+  border-radius: 5px;
+  width: 54vw;
+  height: 5vh;
+}
+
+.exp {
+  position: relative;
+
+  display: flex;
+  height: 15vh;
+  width: 75vw;
+  background-color: transparent;
+  color: rgb(239, 241, 239);
+  margin: 13vh 12vw;
+  margin-top: 20vh;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+
+  font-size: 8vw;
+}
+
+/* .det ul li a:hover{
+         background-color: yellowgreen;
+         padding: 3px 14px;
+          border: 2px solid white;
+          border-radius: 2px;
+
+          
+
+       } */
+.det ul li a:hover {
+  color: greenyellow;
+}
+
+@keyframes high {
+  from {
+    background-color: none;
+    padding: 0;
+  }
+
+  to {
+    background-color: yellowgreen;
+    padding: 3px 14px;
+    border: 2px solid white;
+    border-radius: 2px;
+  }
+}
+
+.contact {
+  display: flex;
+  background-color: white;
+  border: 2px solid rgb(17, 13, 13);
+  border-radius: 18px;
+  width: 113px;
+  color: black;
+  border-color: rgb(233, 235, 230);
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+
+.contact:hover {
+  color: white;
+  background-color: green;
+}
+
+.line {
+  height: 2px;
+  width: 93vw;
+  background-color: rgb(240, 236, 236);
+
+  margin-top: -3px;
+  margin-left: 46px;
+}
+.info {
+  width: 88vw;
+  height: 7vh;
+  background-color: transparent;
+  margin: 12vh 5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+.bk {
+  margin: -1vh 45vw;
+  padding: 1.5vh 4vh;
+  color: white;
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+.book {
+  height: 27vh;
+  margin: 6vh 5vw;
+  width: 90vw;
+  background-color: rgba(0, 0, 0, 0.459);
+  border: 2px solid rgba(45, 33, 33, 0.751);
+  border-radius: 7px;
+}
+.sel1 {
+  width: 25vw;
+  height: 6vh;
+  margin: 10vh 7vh;
+  padding: 1vh 5vw;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-size: medium;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sel2 {
+  width: 25vw;
+  height: 6vh;
+  margin: 9vh 20vh;
+  margin: 10vh -9vh;
+  padding: 1vh 5vw;
+  font-size: medium;
+  border: 2px solid black;
+  border-radius: 12px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.search {
+  height: 6vh;
+  width: 8vw;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 0vh 6vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background-color: orange;
+}
+.ad {
+  height: 11vh;
+  width: 67vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 6vh 15vw;
+  font-family: "EB Garamond", serif;
+  font-size: 5vw;
+  color: orange;
+}
+
+.lab1 {
+  justify-content: center;
+  height: 10px;
+  width: 8vw;
+  position: relative;
+  top: -7vh;
+  right: -16vw;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.lab2 {
+  position: relative;
+  height: 2vh;
+  width: 8vw;
+  top: -7vh;
+  right: -12vw;
+  display: inline-block;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+
+.hd {
+  background-color: rgb(203, 66, 66);
+  padding: 2vh 17vw;
+  font-size: 7vh;
+  color: aliceblue;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 66%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.Brazil {
+  height: 45vh;
+  width: 18vw;
+  position: relative;
+  top: 3vh;
+  left: 1vw;
+  border: 1px transparent;
+  border-radius: 8px;
+}
+.B {
+  height: 50vh;
+  width: 25vw;
+  background-color: rgb(240, 234, 234);
+  position: relative;
+  top: 7vh;
+  z-index: 4;
+  left: 9vw;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.Brazil {
+  height: 35vh;
+  width: 23vw;
+}
+
+.text {
+  margin: 7vh 2vw;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.bb {
+  position: relative;
+  top: -11vh;
+  left: 18vw;
+  padding: 1vh 1vw;
+  background-color: rgb(71, 71, 215);
+  color: white;
+  border: 2px solid rgb(115, 74, 204);
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.f {
+  display: flex;
+  justify-content: space-around;
+  height: 62vh;
+  width: 80vw;
+  padding: 2vh -8vw;
+  margin-right: 16vw;
+}
+.f1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 62vh;
+  width: 80vw;
+
+  padding: 2vh -8vw;
+  margin-right: 16vw;
+}
+.txt{
+   background-color: transparent;
+   background-color: white(235, 233, 231);
+    border:5px solid rgb(197, 190, 178);
+    border-radius: 11px;
+   height: 22vh;
+   width:40vw;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin:5vh 4vw;
+    text-align: center;
+    
+     padding:4vh 2vw;
+     
+}
+ .a{
+   display: inline-block;
+   width: 20vw;
+  margin:0vh 15vw;
+  font-size: 4vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+ }
+ .abt{
+ width:100vw;
+display: flex;
+justify-content: space-between;
+  height: 47vh;
+  margin:2vh 0vw;
+  background-color: rgb(255, 255, 255);
+  
+ }
+ .ikd{
+  margin: 0vh 10vw;
+
+ }
+  .oi{
+    position: relative;
+    top: -14vh;
+    left: -7vw;
+    height: 52vh;
+    width: 36vw;
+    margin: -2vh -8vw;
+  }
+ .footer{
+ height: 15vh;
+ width:100vw;
+  background-color: rgb(42, 32, 32);
+   color:white;
+
+ }
+ 
+  .footer ul li{
+    display: inline-block;
+    
+    padding: 42px 20px;
+     color:rgb(255, 255, 255);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+   .footer ul li {
+    list-style:none ;
+
+    
+   }
+    .footer ul li ::before{
+      content:"\2022";
+      color:rgb(237, 179, 32);
+       font-weight: bold;
+        display: inline-block;;
+        width:1rem;
+    }
+  .pp{
+    margin-left: 22vw;
+  }
